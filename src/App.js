@@ -17,14 +17,6 @@ import { doc, getDoc, updateDoc } from "firebase/firestore";
 import { db } from "./firebase";
 import OldLeaderboard from "./pages/OldLeaderboard/OldLeaderboard";
 
-import TagManager from "react-gtm-module";
-
-const tagManagerArgs = {
-  gtmId: "G-RFXMRRMPNR",
-};
-
-TagManager.initialize(tagManagerArgs);
-
 function App() {
   const [contestEnded, setContestEnded] = useState();
   useEffect(() => {
