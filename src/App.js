@@ -35,7 +35,6 @@ function App() {
       if (docSnap.exists()) {
         let data = docSnap.data();
         console.log(data.contestEnded);
-
         setContestEnded(data.contestEnded);
       } else {
         // doc.data() will be undefined in this case

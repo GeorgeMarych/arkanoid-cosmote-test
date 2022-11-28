@@ -6,16 +6,6 @@ import { getFirestore } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDaCm0HHcO6-HWEpBALM27UsgSN-CoQczM",
-//   authDomain: "arkanoid-cosmote.firebaseapp.com",
-//   projectId: "arkanoid-cosmote",
-//   storageBucket: "arkanoid-cosmote.appspot.com",
-//   messagingSenderId: "729546609362",
-//   appId: "1:729546609362:web:bfa7b29a75096a2787930b",
-// };
-
 const firebaseConfig = {
   apiKey: "AIzaSyAw5BhZsDOtJgfh_bBJR0ePAjMI4GSoq3M",
   authDomain: "arkanoid-cosmote-test.firebaseapp.com",
