@@ -1,0 +1,204 @@
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .hero-img-container {
+        margin-top: 0;
+    }
+
+    .register-form {
+        padding: 0 20px;
+    }
+
+    .form-input-group {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .main .header {
+        flex-wrap: wrap;
+    }
+
+    .main .header-left {
+        width: 50%;
+        order: 0;
+    }
+
+    .main .header-right {
+        width: 50%;
+        order: 1;
+    }
+
+    .main .header-center {
+        width: 100%;
+        order: 2;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 860px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .form-input-group {
+        max-width: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+    .login-form-group.form-input-group {
+        max-width: 100%;
+        width: 400px;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .footer-left-img {
+        max-width: 210px;
+    }
+
+    .footer-center-img {
+        width: 130px;
+    }
+
+    .main .header-center {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    /*.highscore-container {
+        display: block;
+    }*/
+}
+
+@media (max-width: 580px) {
+    body {
+        font-size: 16px;
+    }
+
+    .leaderboard .hero-img {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .cosmote-logo, .germanos-logo {
+        height: 50px;
+    }
+
+    .header {
+        padding-top: 15px;
+    }
+
+    .btn {
+        padding: 10px 35px;
+        min-width: 200px;
+        font-size: 22px;
+
+    }
+
+    .mainContent {
+        gap: 30px
+    }
+
+    .btn-container {
+        flex-direction: column;
+    }
+
+    .bottom-img-container {
+        justify-content: center;
+        display: flex;
+    }
+
+    .bottom-img {
+        width: 80%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .footer-right, .footer-left {
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .error-message {
+        font-size: 14px;
+    }
+
+    .avatar-container {
+        margin-bottom: 25px;
+    }
+
+    .avatar-img {
+        max-width: 100px;
+    }
+
+    .avatar-added .avatar-img {
+        height: 34px;
+    }
+
+    .login-form-group.form-input-group {
+        max-width: 100%;
+        width: 310px;
+        flex-direction: column;
+    }
+
+    .footer-left {
+        order: 1;
+    }
+
+    .footer-center {
+        order: 0;
+    }
+
+    .footer-right {
+        order: 2;
+    }
+
+    .logout {
+        font-size: 14px;
+    }
+
+    /*.avatar-container.header-avatar .avatar-img {
+        width: 35px;
+    }*/
+}
+
+@media (max-width: 380px) {
+    h1.highscore-title {
+        font-size: 20px;
+    }
+
+    .cheese {
+        width: 16px;
+    }
+}
+
+@media (max-width: 350px) {
+    .login-form-group.form-input-group {
+        max-width: 100%;
+        width: 280px;
+        flex-direction: column;
+    }
+}

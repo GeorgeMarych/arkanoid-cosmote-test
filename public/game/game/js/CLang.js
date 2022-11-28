@@ -1,21 +1,26 @@
-TEXT_SCORE = "SCORE";
-TEXT_SCORE_GAMEOVER = "Total Score";
-TEXT_LEVEL = "Level";
-TEXT_LEVEL_UPPERCASE = "LEVEL";
-TEXT_SELECT_LEVEL = "SELECT A LEVEL";
-TEXT_COMPLETE = "Complete";
-TEXT_CONGRATULATIONS = "All levels completed... Congratulations!";
-TEXT_HELP_PAGE_1_PC = "Move the paddle with your mouse to bounce the ball and destroy all the bricks! Grab any falling power-ups to get more points!";
-TEXT_HELP_PAGE_1_MOBILE = "Swipe the paddle to bounce the ball and destroy all the bricks! Grab any falling power-ups to get more points!";
+TEXT_SCORE = "ΣΚΟΡ";
+TEXT_SCORE_GAMEOVER = "Συνολικό Σκορ";
+TEXT_LEVEL = "Επίπεδο";
+TEXT_LEVEL_UPPERCASE = "ΕΠΙΠΕΔΟ";
+TEXT_SELECT_LEVEL = "ΔΙΑΛΕΞΤΕ ΕΠΙΠΕΔΟ";
+TEXT_COMPLETE = "Ολοκλήρωση";
+TEXT_CONGRATULATIONS = "Ολοκληρώθηκαν όλα τα επίπεδα... Συγχαρητήρια!";
+TEXT_HELP_PAGE_1_PC =
+  "Μετακινήστε την εξέδρα για να ανακρούσετε την μπάλα και να καταστρέψετε όλα τα τούβλα! Αρπάξτε τυχόν power-ups που πέφτουν για να κερδίσετε περισσότερους πόντους!";
+TEXT_HELP_PAGE_1_MOBILE =
+  "Μετακινήστε την εξέδρα για να ανακρούσετε την μπάλα και να καταστρέψετε όλα τα τούβλα! Αρπάξτε τυχόν power-ups που πέφτουν για να κερδίσετε περισσότερους πόντους!";
 TEXT_DEVELOPED = "DEVELOPED BY";
-var TEXT_CONFIRM_CLEAR_SAVINGS = "ALL YOUR SAVINGS WILL BE DELETED.ARE YOU SURE?";
-var TEXT_ARE_SURE = "ARE YOU SURE?";
-var TEXT_PRELOADER_CONTINUE = "START";
-var TEXT_ERR_LS = "YOUR WEB BROWSER DOES NOT SUPPORT STORING SETTING LOCALLY. IN SAFARI, THE MOST COMMON CAUSE OF THIS IS USING 'PRIVATE BROWSING MODE'. SOME INFO MAY NOT SAVE OR SOME FEATURE MAY NOT WORK PROPERLY.";
+var TEXT_CONFIRM_CLEAR_SAVINGS =
+  "ΟΛΕΣ ΣΑΣ ΑΠΟΘΗΚΕΥΣΕΙΣ ΘΑ ΔΙΑΓΡΑΦΟΥΝ. ΕΙΣΤΕ ΣΙΓΟΥΡΟΙ;";
+var TEXT_ARE_SURE = "ΕΙΣΤΕ ΣΙΓΟΥΡΟΙ;";
+var TEXT_PRELOADER_CONTINUE = "ΕΝΑΡΞΗ";
+var TEXT_ERR_LS =
+  "Ο WEB BROWSER ΣΑΣ ΔΕΝ ΥΠΟΣΤΗΡΙΖΕΙ ΑΠΟΘΗΚΕΥΣΗ ΡΥΘΜΙΣΕΩΝ ΤΟΠΙΚΑ. ΣΤΟ SAFARI, Η ΠΙΟ ΣΥΧΝΗ ΑΙΤΙΑ ΑΥΤΟ ΕΙΝΑΙ Η ΧΡΗΣΗ «ΙΔΙΩΤΙΚΗ ΛΕΙΤΟΥΡΓΙΑ ΠΕΡΙΗΓΗΣΗΣ». ΟΡΙΣΜΕΝΕΣ ΠΛΗΡΟΦΟΡΙΕΣ ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΑΠΟΘΗΚΕΥΟΝΤΑΙ Ή ΚΑΠΟΙΑ ΔΥΝΑΤΟΤΗΤΑ ΜΠΟΡΕΙ ΝΑ ΜΗΝ ΛΕΙΤΟΥΡΓΕΙ ΣΩΣΤΑ.";
 
 TEXT_SHARE_IMAGE = "200x200.jpg";
-TEXT_SHARE_TITLE = "Congratulations!";
-TEXT_SHARE_MSG1 = "You collected <strong>";
-TEXT_SHARE_MSG2 = " points</strong>!<br><br>Share your score with your friends!";
-TEXT_SHARE_SHARE1 = "My score is ";
-TEXT_SHARE_SHARE2 = " points! Can you do better";
+TEXT_SHARE_TITLE = "Συγχαρητήρια!";
+TEXT_SHARE_MSG1 = "Συλλέξατε <strong>";
+TEXT_SHARE_MSG2 =
+  " πόντους</strong>!<br><br>Μοιραστείτε το σκορ σας με τους φίλους σας!";
+TEXT_SHARE_SHARE1 = "To Σκορ μου είναι ";
+TEXT_SHARE_SHARE2 = " πόντοι! Μπορείς να τα πας καλύτερα;";

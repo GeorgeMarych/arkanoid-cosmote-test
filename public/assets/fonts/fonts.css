@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-Bold.eot');
+    src: url('Seravek-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-Bold.woff2') format('woff2'),
+        url('Seravek-Bold.woff') format('woff'),
+        url('Seravek-Bold.ttf') format('truetype'),
+        url('Seravek-Bold.svg#Seravek-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek.eot');
+    src: url('Seravek.eot?#iefix') format('embedded-opentype'),
+        url('Seravek.woff2') format('woff2'),
+        url('Seravek.woff') format('woff'),
+        url('Seravek.ttf') format('truetype'),
+        url('Seravek.svg#Seravek') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('Seravek-Italic.eot');
+    src: url('Seravek-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Seravek-Italic.woff2') format('woff2'),
+        url('Seravek-Italic.woff') format('woff'),
+        url('Seravek-Italic.ttf') format('truetype'),
+        url('Seravek-Italic.svg#Seravek') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

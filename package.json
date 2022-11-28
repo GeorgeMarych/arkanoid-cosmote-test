@@ -1,5 +1,6 @@
 {
   "name": "arkanoid-app",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,8 +10,10 @@
     "firebase": "^9.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-gtm-module": "^2.0.11",
     "react-router-dom": "^6.4.0",
     "react-scripts": "5.0.1",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

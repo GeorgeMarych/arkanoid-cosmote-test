@@ -90,25 +90,25 @@ function CInterface(iScore) {
       );
     }
 
-    _oScoreText = new CTLText(
-      s_oStage,
-      CANVAS_WIDTH / 2 - 150,
-      CANVAS_HEIGHT / 2 - 430,
-      100,
-      70,
-      50,
-      "center",
-      "#fff",
-      PRIMARY_FONT,
-      1,
-      0,
-      0,
-      TEXT_SCORE + "\n" + iScore,
-      true,
-      true,
-      true,
-      false
-    );
+    // _oScoreText = new CTLText(
+    //   s_oStage,
+    //   CANVAS_WIDTH / 2 - 150,
+    //   CANVAS_HEIGHT / 2 - 430,
+    //   100,
+    //   70,
+    //   50,
+    //   "center",
+    //   "#fff",
+    //   PRIMARY_FONT,
+    //   1,
+    //   0,
+    //   0,
+    //   TEXT_SCORE + "\n" + iScore,
+    //   true,
+    //   true,
+    //   true,
+    //   false
+    // );
 
     _oLevelText = new CTLText(
       s_oStage,
@@ -240,18 +240,18 @@ function CInterface(iScore) {
         createjs.Tween.get(_oTextGameOver.getText())
           .to({ y: CANVAS_HEIGHT / 2 - 200 }, 1000, createjs.Ease.bounceOut)
           .call(function () {
-            var oSpriteRestart = s_oSpriteLibrary.getSprite("but_restart");
-            _oButReturnToMenu = new CGfxButton(
-              CANVAS_WIDTH / 2,
-              CANVAS_HEIGHT / 2 + 200,
-              oSpriteRestart,
-              s_oStage
-            );
-            _oButReturnToMenu.addEventListener(
-              ON_MOUSE_UP,
-              s_oInterface._onButReturnToMenuRelease,
-              this
-            );
+            // var oSpriteRestart = s_oSpriteLibrary.getSprite("but_restart");
+            // _oButReturnToMenu = new CGfxButton(
+            //   CANVAS_WIDTH / 2,
+            //   CANVAS_HEIGHT / 2 + 200,
+            //   oSpriteRestart,
+            //   s_oStage
+            // );
+            // _oButReturnToMenu.addEventListener(
+            //   ON_MOUSE_UP,
+            //   s_oInterface._onButReturnToMenuRelease,
+            //   this
+            // );
           });
       });
 
@@ -281,10 +281,10 @@ function CInterface(iScore) {
       _oTextLevelComplete = new CTLText(
         s_oStage,
         CANVAS_WIDTH / 2 - 300,
-        -150,
+        -250,
         600,
         300,
-        100,
+        60,
         "center",
         "#ffff00",
         PRIMARY_FONT,
@@ -401,22 +401,11 @@ function CInterface(iScore) {
       1200,
       createjs.Ease.bounceOut
     );
-    createjs.Tween.get(_oTextGameOver.getText())
-      .to({ alpha: 1 }, 1000, createjs.Ease.bounceOut)
-      .call(function () {
-        var oSpriteRestart = s_oSpriteLibrary.getSprite("but_restart");
-        _oButReturnToMenu = new CGfxButton(
-          CANVAS_WIDTH / 2,
-          CANVAS_HEIGHT / 2 + 300,
-          oSpriteRestart,
-          s_oStage
-        );
-        _oButReturnToMenu.addEventListener(
-          ON_MOUSE_UP,
-          s_oInterface._onButReturnToMenuRelease,
-          this
-        );
-      });
+    // createjs.Tween.get(_oTextGameOver.getText()).to({alpha: 1}, 1000, createjs.Ease.bounceOut).call(function () {
+    //     var oSpriteRestart = s_oSpriteLibrary.getSprite("but_restart");
+    //     _oButReturnToMenu = new CGfxButton((CANVAS_WIDTH / 2), CANVAS_HEIGHT / 2 + 300, oSpriteRestart,s_oStage);
+    //     _oButReturnToMenu.addEventListener(ON_MOUSE_UP, s_oInterface._onButReturnToMenuRelease, this);
+    // });
     if (DISABLE_SOUND_MOBILE === false || s_bMobile === false) {
       var oGameCompleted = playSound("game_completed", 1, false); //insert an appropriate sound
       setVolume("soundtrack", 0);
@@ -448,7 +437,7 @@ function CInterface(iScore) {
   };
 
   this.refreshScore = function (iScore) {
-    _oScoreText.refreshText("SCORE\n" + iScore);
+    // _oScoreText.refreshText("SCORE\n" + iScore);
     localStorage.setItem("score", iScore);
     window.dispatchEvent(new Event("storage"));
   };

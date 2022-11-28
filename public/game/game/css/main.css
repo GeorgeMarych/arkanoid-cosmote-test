@@ -61,19 +61,19 @@ canvas {
 }
 
 .check-font-1{
-        font-family: 'domdiagonal_btregular';
+        font-family: 'Seravek-Bold', sans-serif;
 }
 
 
 
 @font-face {
-    font-family: 'domdiagonal_btregular';
-    src: url('domdiagn-webfont.eot');
-    src: url('domdiagn-webfont.eot?#iefix') format('embedded-opentype'),
-         url('domdiagn-webfont.woff2') format('woff2'),
-         url('domdiagn-webfont.woff') format('woff'),
-         url('domdiagn-webfont.ttf') format('truetype'),
-         url('domdiagn-webfont.svg#domdiagonal_btregular') format('svg');
+    font-family: 'Seravek-Bold';
+    src: url('Seravek-Bold.eot');
+    src: url('Seravek-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Seravek-Bold.woff2') format('woff2'),
+         url('Seravek-Bold.woff') format('woff'),
+         url('Seravek-Bold.ttf') format('truetype'),
+         url('Seravek-Bold.svg#domdiagonal_btregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
