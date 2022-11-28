@@ -2,6 +2,9 @@
 
 this project is a small website with authentication, you can register and once you are logged in there is a game that you can play, you have 3 lives and you can play game 5 times, if you failed. you can check your score in leaderboard.
 
+regarding technologies: Firebase is used for authentication (Login, Register, Forgot password), Context API for state management.
+Project is using functional components.
+
 ### If you want to register :
 
 firstly you can use my credentials:
@@ -19,7 +22,6 @@ Project is created with:
 - React Router Dom : 6.4.0
 - Firebase : 9.10.0
 - sweetalert : 2.1.2
-- react-gtm-module : 2.0.11
 
 ## Setup
 
